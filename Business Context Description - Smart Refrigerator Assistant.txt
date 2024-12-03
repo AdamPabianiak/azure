@@ -1,0 +1,59 @@
+Business Overview:
+The Smart Refrigerator Assistant addresses the modern consumer's need for convenience, efficiency, and food waste reduction. This model enables users to optimize refrigerator usage by tracking inventory, monitoring temperature, and receiving tailored recipe suggestions.
+
+The assistant uses IoT devices to collect real time temperature and inventory data from the refrigerator. This data is processed and stored in the cloud, enabling users to monitor their fridge remotely via a web dashboard. The system also provides expiration alerts, temperature warnings, and recipes, helping users make necessary decisions.
+
+This innovative solution is ideal for households, small businesses, and tech-savvy individuals looking to integrate smart technologies into their daily routines.
+
+
+
+
+Key Features:
+1. Real Time Monitoring:
+
+-Tracks fridge temperature and inventory in real time.
+-Sends alerts if the temperature exceeds safe thresholds.
+
+2. Inventory Management:
+
+-Allows users to update and track stored items, including expiration dates.
+-Provides notifications about expiring or low stock items.
+
+3. Recipe Suggestions:
+
+-Suggests recipes based on current inventory.
+-Helps reduce food waste by utilizing soon to expire items.
+
+4. User-Friendly Dashboard:
+
+-Displays inventory, temperature logs, and recipe suggestions.
+-Accessible on web and mobile platforms.
+
+
+
+
+User Stories:
+1. Temperature Monitoring:
+
+-As a user, I want to monitor my fridge’s temperature so that I can ensure the freshness of my food.
+-As a user, I want to receive alerts if the temperature exceeds a safe range so that I can take action quickly.
+
+2. Inventory Management:
+
+-As a user, I want to track the items in my fridge so that I can avoid buying duplicates.
+-As a user, I want notifications about expiring items so that I can use them before they go to waste.
+
+3. Recipe Suggestions:
+
+-As a user, I want recipe suggestions based on my fridge contents so that I can make better use of the ingredients I already have.
+
+4. User Management:
+
+-As a customer, I want to sign up and manage my account so that I can customize my device settings and notifications.
+
+5. Data Access:
+
+-As a business owner, I want to access historical data stored in the cloud so that I can analyze temperature trends and make informed decisions about my refrigeration systems.
+
+
+
