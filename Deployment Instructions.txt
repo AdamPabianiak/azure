@@ -1,0 +1,10 @@
+Download: MySmartFridgeAPI, SmartFridgeSimulator
+MySmartFridgeAPI: Create a Python virtual environment: python -m venv venv
+Activate it: .\venv\Scripts\activate
+Install dependencies: pip install flask azure-cosmos
+Run the REST API: python app.py
+
+SmartFridgeSimulator: Create a venv: python -m venv venv
+Install dependencies: pip install azure-iot-device requests
+Run the simulator: python smart_fridge_simulator.py
+
