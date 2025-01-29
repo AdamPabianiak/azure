@@ -7,7 +7,7 @@ from azure.cosmos import CosmosClient, PartitionKey
 # 1) CONFIGURATION
 # -----------------------------------------------------------------------------
 COSMOS_ENDPOINT = os.getenv("COSMOS_ENDPOINT", "https://myfridgecosmosdb123gojo.documents.azure.com:443/")
-COSMOS_KEY = os.getenv("COSMOS_KEY", "vRODmeJazjqLY0VQ6qhSfgkyAVcBepbkiy0XqlqgnYAslSqlfMK7lH4NKg3jNedt1aBwHgIfJwsGACDbWfTHgg==")
+COSMOS_KEY = os.getenv("COSMOS_KEY", "")
 DATABASE_NAME = "SmartFridgeDB"
 CONTAINER_NAME = "TelemetryContainer"
 
