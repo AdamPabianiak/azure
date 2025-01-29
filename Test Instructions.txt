@@ -3,9 +3,12 @@ app.py: python app.py
 
 Open a browser to http://127.0.0.1:5000/telemetry: Should return {"telemetry_data":[]} initially (empty array).
 
-Use Postman to POST data to http://127.0.0.1:5000/telemetry: curl -X POST -H "Content-Type: application/json" \
-     -d "{\"deviceId\":\"TestDevice\",\"temperature\":3.0}" \
-     http://127.0.0.1:5000/telemetry
+Use Postman to POST data to http://127.0.0.1:5000/telemetry: {
+  "deviceId": "MyFirstDevice",
+  "temperature": 4.2,
+  "timestamp": "2025-02-01T10:00:00Z"
+}
+
 
 
 Verify IoT Device Simulator
@@ -13,3 +16,9 @@ SmartFridgeSimulator: python smart_fridge_simulator.py
 check on the options, have to have rest api running same time.
 
 Then go to azure and check if saving to cosmos DB
+
+
+az iot hub monitor-events \
+  --hub-name myfridgehub123gojo \
+  --device-id MyFirstDevice \
+  --output table
